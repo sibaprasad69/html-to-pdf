@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+dist
+demo.html
+logo.png
+*.md
+.git
+.gitignore
+Dockerfile
+# supervisord.conf must be included for Docker build
+compose.yml

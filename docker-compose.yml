@@ -1,0 +1,17 @@
+services:
+     app:
+          container_name: html-to-pdf-app
+          image: coderabhisek/html-to-pdf-app
+          ports:
+               - '3000:3000'
+          depends_on:
+               - pdf-api
+          networks:
+               - private
+     pdf-api:
+          container_name: pdf-api
+          image: microbox/node-url-to-pdf-api
+          networks:
+               - private
+networks:
+     private:

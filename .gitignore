@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log
+dist/
+.env
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.tar
+
+# Build
+build/
+
+# Misc
+*.swp
+.idea/
+
+# private
+demo.html
+logo.png
