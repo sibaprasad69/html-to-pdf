@@ -113,7 +113,7 @@ function logProjectInfo() {
     console.log('GitHub: https://github.com/abhisekmohantychinua/html-to-pdf-app');
     console.log('Author: Abhisek Mohanty');
     console.log('Portfolio: https://abhisekmohantychinua.github.io/mohantyabhisek.portfolio');
-    console.log('LinkedIn: https://www.linkedin.com/in/abhisek-mohanty');
+    console.log('LinkedIn: https://www.linkedin.com/in/mohanty-abhisek');
     console.log('For usage, see README.md in the repo or your local copy.');
     console.log('============================================================');
 }
